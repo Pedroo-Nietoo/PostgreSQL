@@ -96,3 +96,4 @@ INSERT INTO timer (nome, tempoInicial, tempoFinal) VALUES ('Tomar água', 0.0, 1
 INSERT INTO background (nivelDaAgua) VALUES (2);
 INSERT INTO aplicativo (nome) VALUES ('WaterClub');
 INSERT INTO usuario (nome, idade, peso, altura, cpf, email, tempoTimer, id_app, id_calendario, id_consumoDeAgua, id_timer, id_notificacao, id_background) VALUES ('Pedro', 25, 51.0, 1.70, '123456789', 'pedro@gmail.com', 30.0, 1, 1, 1, 1, 1, 1);
+ALTER TABLE anotacoes ADD COLUMN descricao VARCHAR(200);
